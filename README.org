@@ -1,0 +1,4 @@
+* ProxyFeed
+A lightweight twitter to RSS feed generator.
+
+This package is a prototype and not meant for production use.
