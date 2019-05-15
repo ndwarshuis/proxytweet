@@ -12,8 +12,10 @@ setuptools.setup(
     description="A lightweight Twitter to RSS feed generator",
     long_description=long_description,
     long_description_content_type="text/x-org",
-    url="https://github.com/ndwarshuis/ProxyFeed",
-    packages=setuptools.find_packages(),
+    url="https://github.com/ndwarshuis/proxytweet",
+    zip_safe=False,
+    include_package_data=True,
+    packages=["proxytweet"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
