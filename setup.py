@@ -15,7 +15,8 @@ setuptools.setup(
     url="https://github.com/ndwarshuis/proxytweet",
     zip_safe=False,
     include_package_data=True,
-    packages=["proxytweet"],
+    packages=setuptools.find_packages(),
+    install_requires=["Flask", "twitterscraper", "rfeed", "beautifulsoup4"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
