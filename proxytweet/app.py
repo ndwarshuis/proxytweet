@@ -110,6 +110,3 @@ app = Flask(__name__)
 def feed(handle):
     rss = html.unescape(tweets_to_rss(handle).rss())
     return Response(rss, mimetype="application/rss+xml")
-
-
-app.run(host="0.0.0.0", debug=False, threaded=True)
