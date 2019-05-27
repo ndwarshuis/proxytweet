@@ -2,3 +2,5 @@ flake8
 pylint
 ipython
 black
+pip-tools
+pipdeptree
