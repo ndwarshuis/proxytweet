@@ -1,6 +1,3 @@
-#! /bin/python3
-
-# import twitter_scraper as ts
 import html
 import re
 import logging
@@ -110,3 +107,7 @@ app = Flask(__name__)
 def feed(handle):
     rss = html.unescape(tweets_to_rss(handle).rss())
     return Response(rss, mimetype="application/rss+xml")
+
+
+def main():
+    app.run()

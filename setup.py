@@ -5,7 +5,7 @@ with open("README.org", "r") as fh:
 
 
 setuptools.setup(
-    name="ProxyFeed",
+    name="ProxyTweet",
     version="0.0.1",
     author="Nathan Dwarhsuis",
     author_email="natedwarshuis@gmail.com",
@@ -22,4 +22,5 @@ setuptools.setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
+    entry_points={"console_scripts": ["proxytweet=proxytweet.app:main"]},
 )
