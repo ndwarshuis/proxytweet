@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <head charset="utf-8">
+    <title>ProxyTweet</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div id="top">
+      <div>
+        <h1>ProxyTweet</h1>
+        <h2>Enter user handle below to download RSS</h2>
+        <form action="/user" method="post">
+          @<input name="user" id="screen_name" type="text" maxlength="140" size="20" placeholder="elonmusk"> <br> <br>
+          <input id="fetch" type="submit" value="Download RSS">
+        </form>
+      </div>
+    </div>
+  </body>
+  <div style="display: block; opacity: 1;"></div>
+</html>
