@@ -13,7 +13,7 @@ coala-utils==0.5.1        # via twitterscraper
 flask==1.0.3
 idna==2.8                 # via requests
 itsdangerous==1.1.0       # via flask
-jinja2==2.10.1            # via flask
+jinja2==2.11.3            # via flask
 lxml==4.3.3               # via twitterscraper
 markupsafe==1.1.1         # via jinja2
 requests==2.22.0          # via twitterscraper
